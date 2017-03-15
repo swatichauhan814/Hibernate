@@ -5,7 +5,7 @@
 
 	<!-- mapping file -->
 <hibernate-mapping>
-  <class name="beans.NewStudent" table="newstudent" schema="hib"> <!-- schema == DB name in MySql -->
+  <class name="beans.NewStudent" table="newstudent" schema="hib"> <!-- schema is the name of your DB in MySql -->
   <id name="id"/>
   <property name="name" />
   <property name="email" />
