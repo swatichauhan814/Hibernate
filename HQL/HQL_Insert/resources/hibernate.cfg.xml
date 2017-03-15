@@ -8,7 +8,7 @@
 	    <property name="connection.driver_class"> com.mysql.jdbc.Driver </property>
 		<property name="connection.url">jdbc:mysql://localhost/hib</property>
 		<property name="connection.user">root</property>
-		<property name="connection.password">swati</property>
+		<property name="connection.password">root</property>
 		<property name="connection.pool_size">15</property>
 		
 		<property name="dialect"> org.hibernate.dialect.MySQLDialect</property>
