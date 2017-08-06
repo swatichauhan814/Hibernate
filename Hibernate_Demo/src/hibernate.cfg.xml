@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+ 
+<hibernate-configuration>
+<session-factory>
+ 
+<!-- Related to the connection START -->
+<property name="connection.driver_class"> com.mysql.jdbc.Driver </property>
+<property name="connection.url">jdbc:mysql://localhost/test1</property>
+<property name="connection.user">root</property>
+<property name="connection.password">Swati</property>
+<!-- Related to the connection END -->
+ 
+<!-- Related to hibernate properties START -->
+<property name="show_sql">true </property>
+<property name="dialect"> org.hibernate.dialect.MySQLDialect </property>
+<property name="hbm2ddl.auto">update </property>
+<!-- Related to hibernate properties END -->
+ 
+<!-- Related to mapping START -->
+<mapping resource="product.hbm.xml" />
+<!-- Related to the mapping END -->
+ 
+</session-factory>
+</hibernate-configuration>
